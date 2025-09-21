@@ -1,0 +1,3120 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a4f2686c-6b2f-4406-a0a9-6848d5957785")
+	(paper "A4")
+	(lib_symbols
+		(symbol "VAMK_ANA:LM317T_TO220_1.5A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LM317T_"
+				(at 1.27 8.89 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "LM317T_TO220_1.5A"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "VAMK_ANA:TO-220"
+				(at 19.05 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\"\""
+				(at 12.7 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "POSITIVE VOLTAGE REGULATOR; ADJUSTABLE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Storing Location" "3.1.3.2"
+				(at 12.7 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Decal" "TO-220"
+				(at 12.7 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Elfa" "73-120-77"
+				(at 12.7 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Farnell" "9489398"
+				(at 12.7 -12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM317T_TO220_1.5A_1_1"
+				(rectangle
+					(start -5.08 3.175)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "ADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VAMK_ANA:LM337T_TO220_1.5A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LM337T_"
+				(at 1.27 8.89 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "LM337T_TO220_1.5A"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "VAMK_ANA:TO-220"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\"\""
+				(at 12.7 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NEGATIVE VOLTAGE REGULATOR;ADJUSTABLE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Storing Location" "3.2.1.2"
+				(at 12.7 -6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Decal" "TO-92"
+				(at 12.7 -8.89 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Elfa" "73-124-73"
+				(at 12.7 -11.43 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Farnell" "9489401"
+				(at 12.7 -13.97 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM337T_TO220_1.5A_1_1"
+				(rectangle
+					(start -5.08 3.175)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "ADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VAMK_C:1000UF_50V_ELE"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "1000UF_50V_ELE"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "VAMK_C:C_P_5_0_13"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\"\""
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Aluminum electrolytic capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Storing Location" " 2.7.1.1"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Prototype Name" "1000u"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" " +-20%"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Elfa" "67-014-37"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "\"capacitor\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1000UF_50V_ELE_1_1"
+				(polyline
+					(pts
+						(xy -3.81 1.905) (xy -3.81 0.635) (xy -3.81 1.27) (xy -4.445 1.27) (xy -3.81 1.27) (xy -3.175 1.27)
+						(xy -3.81 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VAMK_CON:ROW_VERT_1X2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ROW_VERT/1X2"
+				(at 15.24 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "ROW_VERT_1X2"
+				(at 15.24 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "VAMK_CON:ROW_VERT_1x2"
+				(at 15.24 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\"\""
+				(at 15.24 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Plug, Vertical Row Header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Storing Location" "3.10.1.X"
+				(at 15.24 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Elfa" "43-702-19"
+				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Numer Farnell" "329-1807"
+				(at 15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "\"\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ROW_VERT_1X2_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VAMK_C_SMD:100NF_50V_CER"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "100NF_50V_CER"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "VAMK_C_SMD:C1206"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\"\""
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multilayer ceramic SMD capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Storing Location" " EC6, SMD station"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" " +-10%"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Elfa" "65-776-88"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Prototype Name" "100n"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "\"\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "100NF_50V_CER_1_1"
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VAMK_D:1N4007"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "1N4007"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "1N4007"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "VAMK_D:DO41"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\"\""
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Silicon Rectifier"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Storing Location" "2.8.1.2"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating" "1000V"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Elfa" "70-005-16"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Farnell" "9565051"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "\"\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4007_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4007_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VAMK_R_SMD:8.2k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "8.2k"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "VAMK_R_SMD:1206"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\"\""
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "8.2K/5%/0.125W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Storing Location" "EC6,  SMD station"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" " +-5%"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order Number Farnell" "613812"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Blank Field" "none"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "\"Resistor\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "8.2k_1_1"
+				(rectangle
+					(start 2.54 -1.016)
+					(end -2.54 1.016)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 86.36 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e08815d-2705-44a0-bc26-fbc59a7cf4c5")
+	)
+	(junction
+		(at 97.79 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ebbd1b8-1d80-444c-8486-d2b4ed6a59f1")
+	)
+	(wire
+		(pts
+			(xy 97.79 90.17) (xy 97.79 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02170937-26da-4028-85b2-fb32647784b7")
+	)
+	(wire
+		(pts
+			(xy 86.36 71.12) (xy 97.79 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd4fc89-2ccd-4918-9fd1-407ad4996e49")
+	)
+	(wire
+		(pts
+			(xy 86.36 78.74) (xy 86.36 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d90ae9e-8bea-436e-9e28-21145966f589")
+	)
+	(wire
+		(pts
+			(xy 86.36 90.17) (xy 97.79 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f01b327-213a-4b22-9b48-5e2c034f5ad9")
+	)
+	(wire
+		(pts
+			(xy 71.12 81.28) (xy 97.79 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b91adfe-3fd1-413d-a612-8027064154af")
+	)
+	(wire
+		(pts
+			(xy 97.79 78.74) (xy 97.79 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3782db4-652a-481a-b468-f0777241e786")
+	)
+	(wire
+		(pts
+			(xy 71.12 78.74) (xy 86.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf09a5a-90dd-4148-95e2-b255c0e90b53")
+	)
+	(symbol
+		(lib_id "VAMK_D:1N4007")
+		(at 97.79 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09fca74e-0bab-4b33-83a3-6df9bd5709c2")
+		(property "Reference" "1N4"
+			(at 100.33 85.0899 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 102.87 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_D:DO41"
+			(at 100.33 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 92.71 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Silicon Rectifier"
+			(at 97.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" "2.8.1.2"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "1000V"
+			(at 87.63 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "70-005-16"
+			(at 85.09 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9565051"
+			(at 82.55 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3abe8b0d-2de3-42b4-989c-d653e837af59")
+		)
+		(pin "2"
+			(uuid "41c2b348-6d4d-44eb-90a6-b0d150f1759d")
+		)
+		(instances
+			(project "Transmitter_Circuit"
+				(path "/a4f2686c-6b2f-4406-a0a9-6848d5957785"
+					(reference "1N4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_D:1N4007")
+		(at 97.79 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09fdb255-c7a6-43a0-ab96-f207800738b1")
+		(property "Reference" "1N2"
+			(at 100.33 74.9299 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 102.87 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_D:DO41"
+			(at 100.33 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 92.71 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Silicon Rectifier"
+			(at 97.79 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" "2.8.1.2"
+			(at 90.17 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "1000V"
+			(at 87.63 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "70-005-16"
+			(at 85.09 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9565051"
+			(at 82.55 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13703857-3641-431b-9131-0a8f6c2323f3")
+		)
+		(pin "2"
+			(uuid "b508d1b3-ca41-4531-8adf-1fc3233375b2")
+		)
+		(instances
+			(project "Transmitter_Circuit"
+				(path "/a4f2686c-6b2f-4406-a0a9-6848d5957785"
+					(reference "1N2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_D:1N4007")
+		(at 86.36 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "357658b5-f324-4fcd-a475-ac8f6b074139")
+		(property "Reference" "1N3"
+			(at 88.9 86.3599 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 91.44 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_D:DO41"
+			(at 88.9 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 81.28 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Silicon Rectifier"
+			(at 86.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" "2.8.1.2"
+			(at 78.74 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "1000V"
+			(at 76.2 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "70-005-16"
+			(at 73.66 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9565051"
+			(at 71.12 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec2b0070-862e-41aa-a64c-259d99955726")
+		)
+		(pin "2"
+			(uuid "9cd57160-751d-4632-a471-a74533590a8a")
+		)
+		(instances
+			(project "Transmitter_Circuit"
+				(path "/a4f2686c-6b2f-4406-a0a9-6848d5957785"
+					(reference "1N3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R_SMD:8.2k")
+		(at 152.4 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "358a4e27-bbe8-4aeb-8cff-05fb9f011936")
+		(property "Reference" "R8.2K_4"
+			(at 152.4 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "8.2k"
+			(at 152.4 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_R_SMD:1206"
+			(at 152.4 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 152.4 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8.2K/5%/0.125W"
+			(at 152.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" "EC6,  SMD station"
+			(at 152.4 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" " +-5%"
+			(at 152.4 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "613812"
+			(at 152.4 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdedee9e-89f2-47b3-b5fc-ce4de5652c56")
+		)
+		(pin "2"
+			(uuid "6c89985a-33d1-4f1d-b7be-a031430965b6")
+		)
+		(instances
+			(project "Transmitter_Circuit"
+				(path "/a4f2686c-6b2f-4406-a0a9-6848d5957785"
+					(reference "R8.2K_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_CON:ROW_VERT_1X2")
+		(at 66.04 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cddaf7f-680f-42b8-85d0-bbfac9e435bb")
+		(property "Reference" "ROW_VERT/1X1"
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ROW_VERT_1X2"
+			(at 50.8 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_CON:ROW_VERT_1x2"
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 50.8 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Plug, Vertical Row Header"
+			(at 66.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" "3.10.1.X"
+			(at 50.8 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "43-702-19"
+			(at 50.8 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Numer Farnell" "329-1807"
+			(at 50.8 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a890135-13a9-4a4a-b530-c0c58edf4d79")
+		)
+		(pin "2"
+			(uuid "9dd1b1f4-a270-4b0e-bccb-3148f2ff1b84")
+		)
+		(instances
+			(project ""
+				(path "/a4f2686c-6b2f-4406-a0a9-6848d5957785"
+					(reference "ROW_VERT/1X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_D:1N4007")
+		(at 245.4139 34.9552 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44c6f72f-af98-4dfe-bb1d-16a23421742f")
+		(property "Reference" "1N7"
+			(at 245.4139 31.1452 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 245.4139 29.8752 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_D:DO41"
+			(at 245.4139 32.4152 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 245.4139 40.0352 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Silicon Rectifier"
+			(at 245.4139 34.9552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" "2.8.1.2"
+			(at 245.4139 42.5752 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "1000V"
+			(at 245.4139 45.1152 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "70-005-16"
+			(at 245.4139 47.6552 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9565051"
+			(at 245.4139 50.1952 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67649975-b79d-4212-aa29-d8a75e0b37b3")
+		)
+		(pin "2"
+			(uuid "8e606915-3c82-41fe-8ccd-df791a97a7dd")
+		)
+		(instances
+			(project "Transmitter_Circuit"
+				(path "/a4f2686c-6b2f-4406-a0a9-6848d5957785"
+					(reference "1N7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_C:1000UF_50V_ELE")
+		(at 186.69 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54d8febf-3a53-4ba2-92b0-185d477183b2")
+		(property "Reference" "1000u"
+			(at 185.1025 26.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "1000UF_50V_ELE"
+			(at 186.69 27.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_C:C_P_5_0_13"
+			(at 186.69 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 186.69 40.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum electrolytic capacitor"
+			(at 186.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 2.7.1.1"
+			(at 186.69 43.18 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Prototype Name" "1000u"
+			(at 186.69 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" " +-20%"
+			(at 186.69 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "67-014-37"
+			(at 186.69 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b214c4fb-f913-491e-bce8-e05becc41b71")
+		)
+		(pin "2"
+			(uuid "9b4045dd-3639-43d8-82ed-6cd051a52790")
+		)
+		(instances
+			(project ""
+				(path "/a4f2686c-6b2f-4406-a0a9-6848d5957785"
+					(reference "1000u")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_ANA:LM317T_TO220_1.5A")
+		(at 114.3 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65fe9094-2172-4dbc-a0fe-a803f8c75824")
+		(property "Reference" "LM317T_1"
+			(at 114.3 46.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LM317T_TO220_1.5A"
+			(at 115.57 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_ANA:TO-220"
+			(at 133.35 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 127 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "POSITIVE VOLTAGE REGULATOR; ADJUSTABLE"
+			(at 114.3 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" "3.1.3.2"
+			(at 127 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Decal" "TO-220"
+			(at 127 59.69 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "73-120-77"
+			(at 127 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9489398"
+			(at 127 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1503e420-6698-4dd0-9007-1f2e438daf0c")
+		)
+		(pin "2"
+			(uuid "5e052f96-c096-46d1-a343-da5b902c37c8")
+		)
+		(pin "3"
+			(uuid "c03ce75c-9d80-4ce0-bc70-788bf2951c33")
+		)
+		(instances
+			(project ""
+				(path "/a4f2686c-6b2f-4406-a0a9-6848d5957785"
+					(reference "LM317T_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_D:1N4007")
+		(at 86.36 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e9bc66d-7933-489c-9da7-a6f9e8fb6aee")
+		(property "Reference" "1N1"
+			(at 88.9 74.9299 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_D:DO41"
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 81.28 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Silicon Rectifier"
+			(at 86.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" "2.8.1.2"
+			(at 78.74 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "1000V"
+			(at 76.2 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "70-005-16"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9565051"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ded3444-8b2c-4fea-af30-6e4001e2d34c")
+		)
+		(pin "2"
+			(uuid "3a2a01e4-232e-4187-9818-b0ebea00d09c")
+		)
+		(instances
+			(project ""
+				(path "/a4f2686c-6b2f-4406-a0a9-6848d5957785"
+					(reference "1N1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R_SMD:8.2k")
+		(at 149.86 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8986f73c-f64f-4723-ae66-3c27c1ce63b2")
+		(property "Reference" "8.2K_2"
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "8.2k"
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_R_SMD:1206"
+			(at 149.86 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 149.86 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8.2K/5%/0.125W"
+			(at 149.86 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" "EC6,  SMD station"
+			(at 149.86 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" " +-5%"
+			(at 149.86 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "613812"
+			(at 149.86 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d86f6df-fbd6-4bc6-ad1d-f7b70d03c83e")
+		)
+		(pin "2"
+			(uuid "d6e09b1c-999c-4eb5-ad04-220bb012bc40")
+		)
+		(instances
+			(project "Transmitter_Circuit"
+				(path "/a4f2686c-6b2f-4406-a0a9-6848d5957785"
+					(reference "8.2K_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R_SMD:8.2k")
+		(at 151.13 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95e732bf-f919-4bbd-b851-411801b6f55c")
+		(property "Reference" "8.2K_3"
+			(at 151.13 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "8.2k"
+			(at 151.13 77.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_R_SMD:1206"
+			(at 151.13 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 151.13 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8.2K/5%/0.125W"
+			(at 151.13 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" "EC6,  SMD station"
+			(at 151.13 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" " +-5%"
+			(at 151.13 87.63 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "613812"
+			(at 151.13 90.17 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bddb5b7e-f879-4ff5-96bd-1d9593f3478b")
+		)
+		(pin "2"
+			(uuid "6dfb3bdf-b02f-424d-be8a-2501d5297832")
+		)
+		(instances
+			(project "Transmitter_Circuit"
+				(path "/a4f2686c-6b2f-4406-a0a9-6848d5957785"
+					(reference "8.2K_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_D:1N4007")
+		(at 231.14 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d0bae43-9649-4408-bda5-01a1a22d5a24")
+		(property "Reference" "1N5"
+			(at 231.14 41.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 231.14 40.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_D:DO41"
+			(at 231.14 43.18 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 231.14 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Silicon Rectifier"
+			(at 231.14 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" "2.8.1.2"
+			(at 231.14 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "1000V"
+			(at 231.14 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "70-005-16"
+			(at 231.14 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9565051"
+			(at 231.14 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41297a14-0ae4-4b2b-845a-04f8acd82aeb")
+		)
+		(pin "2"
+			(uuid "0b696ff2-7a85-47ee-b1cd-d57593737180")
+		)
+		(instances
+			(project "Transmitter_Circuit"
+				(path "/a4f2686c-6b2f-4406-a0a9-6848d5957785"
+					(reference "1N5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_C_SMD:100NF_50V_CER")
+		(at 186.69 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "caefcf23-b00b-4623-8812-222ab473b826")
+		(property "Reference" "100n"
+			(at 186.69 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "100NF_50V_CER"
+			(at 186.69 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_C_SMD:C1206"
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 186.69 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer ceramic SMD capacitor"
+			(at 186.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " EC6, SMD station"
+			(at 186.69 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" " +-10%"
+			(at 186.69 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "65-776-88"
+			(at 186.69 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Prototype Name" "100n"
+			(at 186.69 77.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd80b794-df66-4fa6-87da-ee3b7893afb7")
+		)
+		(pin "2"
+			(uuid "aea970d6-dcb9-49da-8baa-6cec81868a9b")
+		)
+		(instances
+			(project ""
+				(path "/a4f2686c-6b2f-4406-a0a9-6848d5957785"
+					(reference "100n")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_R_SMD:8.2k")
+		(at 149.86 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dae5b67d-602b-4996-bcdc-316d6bfb34bc")
+		(property "Reference" "8.2K_1"
+			(at 149.86 43.18 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "8.2k"
+			(at 149.86 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_R_SMD:1206"
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8.2K/5%/0.125W"
+			(at 149.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" "EC6,  SMD station"
+			(at 149.86 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" " +-5%"
+			(at 149.86 59.69 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "613812"
+			(at 149.86 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Blank Field" "none"
+			(at 149.86 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4af7c720-627a-4c62-95ba-9f3501d6ad6e")
+		)
+		(pin "2"
+			(uuid "615137f0-1078-4e53-9d1f-d7ffefa45f9a")
+		)
+		(instances
+			(project ""
+				(path "/a4f2686c-6b2f-4406-a0a9-6848d5957785"
+					(reference "8.2K_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_C_SMD:100NF_50V_CER")
+		(at 189.23 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd30ec76-460b-41ee-8146-7dbac489a12b")
+		(property "Reference" "100n"
+			(at 189.23 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "100NF_50V_CER"
+			(at 189.23 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_C_SMD:C1206"
+			(at 189.23 77.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 189.23 87.63 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer ceramic SMD capacitor"
+			(at 189.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " EC6, SMD station"
+			(at 189.23 90.17 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" " +-10%"
+			(at 189.23 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "65-776-88"
+			(at 189.23 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Prototype Name" "100n"
+			(at 189.23 97.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23566e92-0546-4139-9603-96f53ba57485")
+		)
+		(pin "2"
+			(uuid "f1d11200-6eea-486e-a7ab-fb6a1b7538fa")
+		)
+		(instances
+			(project "Transmitter_Circuit"
+				(path "/a4f2686c-6b2f-4406-a0a9-6848d5957785"
+					(reference "100n")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_C:1000UF_50V_ELE")
+		(at 212.09 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f57da425-05a8-4bd7-965b-7e9a10699967")
+		(property "Reference" "1000u1"
+			(at 210.5025 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "1000UF_50V_ELE"
+			(at 212.09 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_C:C_P_5_0_13"
+			(at 212.09 97.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 212.09 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum electrolytic capacitor"
+			(at 212.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" " 2.7.1.1"
+			(at 212.09 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Prototype Name" "1000u"
+			(at 212.09 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" " +-20%"
+			(at 212.09 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "67-014-37"
+			(at 212.09 118.11 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4383d3e-75c6-4ed3-887b-7e7fb1b6c960")
+		)
+		(pin "2"
+			(uuid "18a9c861-ad9d-44bc-b9f5-b1494e1e2cf6")
+		)
+		(instances
+			(project "Transmitter_Circuit"
+				(path "/a4f2686c-6b2f-4406-a0a9-6848d5957785"
+					(reference "1000u1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_D:1N4007")
+		(at 227.33 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f94b80b9-c985-414e-a8d5-0a015ec390c8")
+		(property "Reference" "1N6"
+			(at 227.33 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 227.33 29.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_D:DO41"
+			(at 227.33 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 227.33 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Silicon Rectifier"
+			(at 227.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" "2.8.1.2"
+			(at 227.33 41.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "1000V"
+			(at 227.33 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "70-005-16"
+			(at 227.33 46.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9565051"
+			(at 227.33 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2979f036-56f7-4ab4-ad6f-f08fe12f8156")
+		)
+		(pin "2"
+			(uuid "f49e5a8d-8a8c-4932-8099-5675b9a2f649")
+		)
+		(instances
+			(project "Transmitter_Circuit"
+				(path "/a4f2686c-6b2f-4406-a0a9-6848d5957785"
+					(reference "1N6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VAMK_ANA:LM337T_TO220_1.5A")
+		(at 125.73 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faccc928-e670-4e9b-8cf8-a4058a236b29")
+		(property "Reference" "LM337T_1"
+			(at 125.73 90.17 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LM337T_TO220_1.5A"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "VAMK_ANA:TO-220"
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\"\""
+			(at 138.43 99.06 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NEGATIVE VOLTAGE REGULATOR;ADJUSTABLE"
+			(at 125.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Storing Location" "3.2.1.2"
+			(at 138.43 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Decal" "TO-92"
+			(at 138.43 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Elfa" "73-124-73"
+			(at 138.43 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order Number Farnell" "9489401"
+			(at 138.43 109.22 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac1de80d-9db4-4c4b-b69b-ea89053396bc")
+		)
+		(pin "1"
+			(uuid "eb1cb68e-18a0-41b3-b7ef-f6fda5cdb8c4")
+		)
+		(pin "3"
+			(uuid "1982bce3-d0ca-4257-930c-aee4b05470e1")
+		)
+		(instances
+			(project ""
+				(path "/a4f2686c-6b2f-4406-a0a9-6848d5957785"
+					(reference "LM337T_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
