@@ -1,0 +1,91 @@
+Circuit: * U:\Year4\Design_of_Digital_Electronics\Lab_2\Inverting_and_LIB\AnalogTask.asc
+
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 5.5165
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 5.49501
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 5.50104
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u3:p      d:u3:ln     d:u3:lp     d:u3:e      d:u3:c
+Model:    u3:dx       u3:dx       u3:dx       u3:dx       u3:dx
+Id:     -2.40e-11   -2.50e-11   -2.50e-11   -1.01e-11   -9.51e-12
+Vd:     -2.40e+01   -2.50e+01   -2.50e+01   -1.01e+01   -9.51e+00
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u2:p      d:u2:ln     d:u2:lp     d:u2:e      d:u2:c
+Model:    u2:dx       u2:dx       u2:dx       u2:dx       u2:dx
+Id:     -2.40e-11   -2.51e-11   -2.49e-11   -1.28e-11   -6.84e-12
+Vd:     -2.40e+01   -2.51e+01   -2.49e+01   -1.28e+01   -6.84e+00
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u1:p      d:u1:ln     d:u1:lp     d:u1:e      d:u1:c
+Model:    u1:dx       u1:dx       u1:dx       u1:dx       u1:dx
+Id:     -2.40e-11   -2.49e-11   -2.51e-11   -9.50e-12   -1.01e-11
+Vd:     -2.40e+01   -2.49e+01   -2.51e+01   -9.50e+00   -1.01e+01
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+                        --- JFET Transistors ---
+Name:    j:u3:2      j:u3:1      j:u2:2      j:u2:1      j:u1:2
+Model:    u3:jx       u3:jx       u2:jx       u2:jx       u1:jx
+Id:     -9.76e-05   -9.76e-05   -9.76e-05   -9.76e-05   -9.78e-05
+Vgs:     3.99e-01    3.99e-01    3.99e-01    3.99e-01    3.98e-01
+Vds:    -1.15e+01   -1.15e+01   -1.15e+01   -1.15e+01   -1.10e+01
+Gm:      3.25e-04    3.25e-04    3.25e-04    3.25e-04    3.25e-04
+Gds:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgs:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgd:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    j:u1:1
+Model:    u1:jx
+Id:     -9.78e-05
+Vgs:     3.98e-01
+Vds:    -1.10e+01
+Gm:      3.25e-04
+Gds:     0.00e+00
+Cgs:     0.00e+00
+Cgd:     0.00e+00
+
+
+
+Date: Fri Sep 05 14:25:22 2025
+Total elapsed time: 10.039 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 1656
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 75
+fillins = 490
+solver = Normal
+
