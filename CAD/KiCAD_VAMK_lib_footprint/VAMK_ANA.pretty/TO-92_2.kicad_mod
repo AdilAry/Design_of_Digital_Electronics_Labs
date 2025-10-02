@@ -1,0 +1,187 @@
+(footprint "TO-92_2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)")
+	(tags "TO-92L Molded Narrow transistor")
+	(property "Reference" "BC547_1"
+		(at 3 -3 0)
+		(layer "F.SilkS")
+		(uuid "61534f25-8b24-458a-b6e3-a40cba0b057e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BC547_TO92_0.1A"
+		(at 2.5 3 0)
+		(layer "F.Fab")
+		(uuid "81e29a61-d8c9-4a50-a557-5fdd7d36053a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "\"\""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1967ed48-65f7-439b-9336-e638e91b2dd2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "AMPLIFIER NPN SILICON TRANSISTOR"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e0850c3-36df-4e29-8787-7da5536d08e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Storing Location" "3.2.2.1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44394412-9d32-48d8-97a7-f5f07f1a509d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Decal" "TO-92"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2362db3-af85-4b82-b069-7a717e6984d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Order Number Elfa" "71-039-22"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43f1cbef-4a50-4f50-ac9a-10da1b444684")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Order Number Farnell" "357054"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "adfb1a03-2c5b-47f4-85f8-a8fe1ac3292b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1 -1.5)
+		(end 7.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9b95db5a-af09-452a-b74b-832256c0858d")
+	)
+	(fp_rect
+		(start -1.5 -2)
+		(end 8 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6178990b-6c79-4775-94ae-c1f00c1bd638")
+	)
+	(fp_rect
+		(start -1 -1.5)
+		(end 7.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "74061a66-6efd-4a30-baee-44fed540e0fe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.75 0 0)
+		(layer "F.Fab")
+		(uuid "618b9504-b953-43f9-b354-0451c8509490")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0.5 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "94728739-5527-43c8-b7b3-b3512a0021c3")
+	)
+	(pad "2" thru_hole circle
+		(at 3 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0a1937ec-eecb-48dc-97d3-df91529bf8c1")
+	)
+	(pad "3" thru_hole circle
+		(at 5.5 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "20ce494c-39c4-42f7-9a93-8e8a5676c1d6")
+	)
+	(embedded_fonts no)
+	(model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-92L.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
